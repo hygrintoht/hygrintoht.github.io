@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import Layout from "../components/Layout";
 
 export default function Post() {
   const { postId } = useParams();
@@ -17,5 +18,9 @@ export default function Post() {
         });
   }, [postId]);
 
-  return <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>;
+  return (
+    <Layout>
+      <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+    </Layout>
+  );
 }

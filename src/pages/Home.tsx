@@ -1,18 +1,10 @@
-import { Link } from "react-router-dom";
-
-const posts = ["2024-03-31", "2024-04-01"]; 
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <div>
-      <h1>My Blog</h1>
-      <ul>
-        {posts.map((post) => (
-          <li key={post}>
-            <Link to={`/post/${post}`}>{post.replace("-", " ")}</Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <Layout>
+      <h1>About Me</h1>
+      <p>Hello! I'm [Your Name], a passionate [Your Profession]. Welcome to my personal site!</p>
+    </Layout>
   );
 }
