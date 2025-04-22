@@ -5,12 +5,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div style={{
       display: "flex",
       flexDirection: "column",
-      alignItems: "stretch", // Ensure everything stretches to the full width
-      justifyContent: "flex-start", // Make sure content starts from the TOP
+      alignItems: "stretch",
+      justifyContent: "flex-start", 
       minHeight: "100vh",
       width: "100%",
     }}>
-      {/* Navbar */}
       <nav style={{
         width: "100%",
         padding: "15px 0",
@@ -27,13 +26,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <Link to="/blog" style={{ margin: "0 15px" }}>Blog</Link>
       </nav>
 
-      {/* Main Content */}
       <main style={{
-        marginTop: "80px", // Push below navbar
+        marginTop: "80px",
         width: "90%",
         maxWidth: "70vw",
-        textAlign: "left", // Keep text left-aligned
-        alignSelf: "center", // Center content horizontally
+        textAlign: "left",
+        alignSelf: "center",
       }}>
         {children}
       </main>
