@@ -6,4 +6,4 @@ Add:
     Portfolio photos(done)
     Blog and blog posts (optional for now)
 Fix:
-    CSS Styles general layout
+    CSS Styles general layout(done)

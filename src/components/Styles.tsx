@@ -13,7 +13,7 @@ export const styles = {
       minHeight: "100vh",
       margin: "0 auto",
       padding: "20px",
-      lineHeight: "1.6",
+      lineHeight: "1.8",
     },
     header: {
       borderBottom: "2px solid #eee",
@@ -25,6 +25,7 @@ export const styles = {
     title: {
       fontSize: "2.5rem",
       marginBottom: "5px",
+      color: "#fff",
     },
     nav: {
       display: "flex",
@@ -33,14 +34,64 @@ export const styles = {
     },
     link: {
       textDecoration: "none",
-      color: "#333",
+      color: "#ccc",
       fontWeight: "bold",
+      fontSize: "1rem",
+      transition: "color 0.3s",
     },
     main: {
       paddingBottom: "40px",
       color: "#eee",
       paddingLeft: "30px",
       paddingRight: "10px",
+    },
+    section: {
+    marginBottom: "40px",
+    padding: "20px",
+    backgroundColor: "#333",
+    borderRadius: "8px",
+    },
+    sectionHeading: {
+      fontSize: "2rem",
+      marginTop: "0",
+      marginBottom: "15px",
+      color: "#fff",
+    },
+    paragraph: {
+      marginBottom: "15px",
+      fontSize: "1rem",
+      color: "#ddd",
+    },
+    grid: {
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+      gap: "20px",
+    },
+    card: {
+      backgroundColor: "#444",
+      borderRadius: "8px",
+      padding: "20px",
+      boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
+    },
+    cardTitle: {
+      marginTop: "0",
+      fontSize: "1.5rem",
+      marginBottom: "10px",
+      color: "#fff",
+    },
+    cardDescription: {
+      fontSize: "1rem",
+      color: "#ddd",
+    },
+    cardImage: {
+      width: "100%",
+      height: "auto",
+      borderRadius: "8px",
+    },
+    cardLink: {
+      textDecoration: "none",
+      fontWeight: "bold",
+      transition: "color 0.3s",
     },
     footer: {
       borderTop: "1px solid #ddd",
