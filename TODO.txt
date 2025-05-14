@@ -1,0 +1,9 @@
+Add:
+    Background image for whole website
+    About Me page description(done)
+    About Me photo
+    Portfolio content(done)
+    Portfolio photos(done)
+    Blog and blog posts (optional for now)
+Fix:
+    CSS Styles general layout
