@@ -1,12 +1,12 @@
 export const styles = {
     background: {
-      fontFamily: `'Georgia', serif`,
+      fontFamily: `'Trebuchet MS', sans-serif`,
       backgroundColor: "#111",
       color: "#111",
       margin: "0 auto",
     },  
     container: {
-      fontFamily: `'Georgia', serif`,
+      fontFamily: `Trebuchet MS', sans-serif`,
       color: "#eee",
       backgroundColor: "#222",
       maxWidth: "900px",
@@ -104,7 +104,7 @@ export const styles = {
 
 export const styles_home = {
     container: {
-      fontFamily: `'Georgia', serif`,
+      fontFamily: `Trebuchet MS', sans-serif`,
       height: "100vh",
       display: "flex",
       justifyContent: "center",
