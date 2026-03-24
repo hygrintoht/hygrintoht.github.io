@@ -89,9 +89,10 @@ export const styles = {
       borderRadius: "8px",
     },
     cardLink: {
-      textDecoration: "none",
+      textDecoration: "underline",
       fontWeight: "bold",
       transition: "color 0.3s",
+      color: "#fff",
     },
     footer: {
       borderTop: "1px solid #ddd",

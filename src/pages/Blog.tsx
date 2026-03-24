@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout";
+import { styles } from "../components/Styles";
 
 const posts = ["1970-01-01", "2024-04-01"]; 
 
@@ -11,7 +12,7 @@ export default function Blog() {
         <ul>
           {posts.map((post) => (
             <li key={post}>
-              <Link to={`/post/${post}`}>{post.replace("-", " ")}</Link>
+              <Link to={`/post/${post}`} style={styles.cardLink}>{post.replace("-", " ")}</Link>
             </li>
           ))}
         </ul>
